@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.*
+
+# TypeScript build info
+*.tsbuildinfo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Coverage reports
+coverage/
