@@ -1,23 +1,9 @@
-import { Trie } from "./structures/trie";
-const trie = new Trie();
+import { bubbleSort } from "./algorithms/sorting/BubbleSort";
+import { insertionSort } from "./algorithms/sorting/InsertionSort";
+import { mergeSort } from "./algorithms/sorting/MergeSort";
+import { quickSort } from "./algorithms/sorting/QuickSort";
+import { selectionSort } from "./algorithms/sorting/SelectionSort";
 
-trie.insert("cat");
-trie.insert("car");
-trie.insert("care");
-trie.insert("dog");
-
-console.log(trie.search("cat"));
-console.log(trie.search("ca"));
-
-console.log(trie.startsWith("ca"));
-
-console.log(trie.wordsWithPrefix("ca"));
-
-console.log(trie.size());
-
-trie.delete("care");
-
-console.log(trie.search("care"));
-console.log(trie.search("car"));
-
-console.log(trie.getAllWords());
+console.log(
+    quickSort([38, 27, 43, 3, 9, 82, 10])
+);
