@@ -1,6 +1,6 @@
 {
   "name": "dsalibrary",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A comprehensive TypeScript library implementing Data Structures and Algorithms from scratch.",
   "keywords": [
     "data-structures",
@@ -23,17 +23,13 @@
   },
   "author": "Abhijeet Raj",
   "license": "MIT",
-  "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "files": [
     "dist"
   ],
   "exports": {
-    ".": {
-      "import": "./dist/index.js",
-      "types": "./dist/index.d.ts"
-    }
+  ".": "./dist/index.js"
   },
   "scripts": {
     "build": "tsc",
