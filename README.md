@@ -1,4 +1,4 @@
-# 📚 DS Library
+# 📚 DSA Library
 
 ![Build](https://github.com/Abhijeetraj01/dsalibrary/actions/workflows/build.yml/badge.svg)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?logo=typescript\&logoColor=white)
