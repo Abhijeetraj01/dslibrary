@@ -1,8 +1,8 @@
 # 📚 DS Library
 
+![Build](https://github.com/YOUR_USERNAME/dsLibrary/actions/workflows/build.yml/badge.svg)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?logo=typescript\&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
-![Status](https://img.shields.io/badge/Status-Active-success)
 ![Data Structures](https://img.shields.io/badge/Data%20Structures-10+-blue)
 ![Algorithms](https://img.shields.io/badge/Algorithms-20+-orange)
 

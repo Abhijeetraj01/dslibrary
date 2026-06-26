@@ -1,17 +1,52 @@
 {
   "name": "dslibrary",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A comprehensive TypeScript library implementing Data Structures and Algorithms from scratch.",
+  "keywords": [
+    "data-structures",
+    "algorithms",
+    "typescript",
+    "dsa",
+    "sorting",
+    "searching",
+    "graph",
+    "math",
+    "computer-science"
+  ],
+  "homepage": "https://github.com/Abhijeetraj01/dsLibrary",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Abhijeetraj01/dsLibrary.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Abhijeetraj01/dsLibrary/issues"
+  },
+  "author": "Abhijeet Raj",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
   "scripts": {
     "build": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "clean": "rimraf dist",
+    "dev": "ts-node src/index.ts",
+    "test": "echo \"No tests yet\""
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "engines": {
+    "node": ">=18"
+  },
   "devDependencies": {
     "@types/node": "^25.9.3",
+    "rimraf": "^6.1.3",
     "ts-node": "^10.9.2",
     "typescript": "^6.0.3"
   }
